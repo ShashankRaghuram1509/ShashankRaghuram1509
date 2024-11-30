@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>E LEARNING</title>
+  <link rel="stylesheet" href="learned-style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <header>
+    <nav>
+      <div class="logo">E LEARNING</div>
+      <ul>
+        <li><a href="#home" class="active">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Home Section -->
+  <section id="home">
+    <h1>Welcome to E LEARNING</h1>
+    <p>Enhance your knowledge with our curated courses.</p>
+  </section>
+
+  <!-- Menu Section -->
+  <section id="menu">
+    <h2>Course Menu</h2>
+    <div id="menu-container">
+      <div class="menu-item">
+        <h3>Data Structures</h3>
+        <button class="dropdown-btn">View Videos</button>
+        <div class="dropdown-content">
+          <a href="#">Video 1</a>
+          <a href="#">Video 2</a>
+        </div>
+      </div>
+      <div class="menu-item">
+        <h3>DBMS</h3>
+        <button class="dropdown-btn">View Videos</button>
+        <div class="dropdown-content">
+          <a href="#">Video 1</a>
+          <a href="#">Video 2</a>
+        </div>
+      </div>
+      <div class="menu-item">
+        <h3>Computer Networks</h3>
+        <button class="dropdown-btn">View Videos</button>
+        <div class="dropdown-content">
+          <a href="#">Video 1</a>
+          <a href="#">Video 2</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about">
+    <h2>About Us</h2>
+    <p>
+      E LEARNING provides quality courses to help students and professionals
+      excel in their careers. Explore courses in Data Structures, DBMS, Networking,
+      Programming Languages, and more!
+    </p>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact">
+    <h2>Contact Us</h2>
+    <form id="contact-form">
+      <label for="name">Name:</label>
+      <input type="text" id="name" required>
+      <label for="email">Email:</label>
+      <input type="email" id="email" required>
+      <label for="message">Message:</label>
+      <textarea id="message" required></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>© 2024 E LEARNING. All Rights Reserved.</p>
+  </footer>
+</body>
+</html>
